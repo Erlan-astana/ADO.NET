@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+
+ <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+     <link rel="stylesheet" type="text/css"  href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css"/>
+   -->
+   
+   <script type="text/javascript" src="jquery-ui-1.12.0.custom/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.12.0.custom/jquery-ui.js"></script>
+   
+      
+    <link rel="stylesheet" href="jquery-ui-1.12.0.custom/jquery-ui.css"/>
+      <script type="text/javascript" src="JavaScript1.js"></script>
+      <link rel="stylesheet" type="text/css" href="StyleSheet1.css"/>
+
+         <title>MyApp----jQuery-table</title>
+</head>
+<body>
+
+    <div class="main-content">
+  <div id="divbutton" class="btn-div"> 
+    <button id="show" class="but" class="ui-btn ui-btn-inline">
+        Добавить
+    </button>
+    <button id="show2"  class="but" class="ui-btn ui-btn-inline">
+        Сортировка
+    </button>
+    <button id="show3"class="but" class="ui-btn ui-btn-inline">
+        Удалить
+    </button>
+    <button id="show4"class="but" class="ui-btn ui-btn-inline">
+        Изменить
+    </button>
+  </div>
+
+  <div id='table-div' class="table-div" >
+  <table id="dataTable"   class="mytable" border="1" >
+        <thead>
+        <tr id="th" class="RowClass" >
+        <th ><input  type="checkbox"  id="thinput"/>чекбокс</th>
+            <th >
+                Ф.И.О
+            </th>
+            <th>
+                Возраст
+            </th>
+            <th>
+                Адрес
+            </th>
+            <th >
+              Пол
+            </th>
+        </tr>
+        
+      </thead>
+         <tbody id="tblEmployee"></tbody>
+    </table>
+
+     </div>
+
+</div>
+
+<div> 
+  <label for="filter">
+                Поиск:
+            </label>
+            <input id="filter" />
+
+            </div>
+             <button id="otmena" >
+        Назад
+    </button>
+            <button id="filterbut" >
+        Искать
+    </button>
+    
+
+    <select id="select">
+   <option value="Муж">Муж</option>
+    <option value="Жен">Жен</option>
+   
+   </select>
+   
+   <button id="select-otmena" >
+        select-otmena
+    </button>
+
+  <div id="poisk2"></div>
+
+   <div id="sumtr"> Узнать количество строк </div>
+
+   
+     <div id="dialog" title="Введите данные" class="ui-widget">
+        <div>
+
+            <label for="fio">
+                Ф.И.О:
+            </label>
+            <input id="fio" /></div>
+        <div>
+            <label for="age">
+                Возраст:
+            </label>
+            <input id="age" /></div>
+        <div>
+            <label for="adres">
+                Адрес:
+            </label>
+            <input id="adres" /></div> 
+            <select id="input-select" >Пол:
+   <option value="Муж">Муж</option>
+    <option value="Жен">Жен</option>
+ </select>
+    </div>
+
+
+
+  
+</body>
+
+
+
+
+</html>

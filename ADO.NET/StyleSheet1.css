@@ -1,0 +1,102 @@
+﻿html,body
+{
+   margin:0px;
+   height:100%;
+   width :100%;
+}
+
+/*.main-content
+{
+    height:100%;
+    width:100%;
+    }
+.btn-div
+{
+   height:40px;
+   margin:5px; 
+}*/
+
+
+#tblEmployee {
+
+     width:100%;
+  height:300px;
+  overflow: auto;
+}
+.table-div 
+  {    
+  width:100%;
+  height:300px;
+  overflow: auto;
+}
+
+.mytable{   
+    width:100%;
+    height:100px;   
+    border-collapse: collapse;
+    border: thin solid black; 
+      
+}
+
+        #dialog input
+        {
+            width: 100px;
+            margin: 5px;
+            text-align: left;
+        }
+        #dialog label
+        {
+            display: inline-block;
+            width: 120px;
+        }
+        
+      /*  ::-webkit-scrollbar {
+
+                width: 0px;
+
+                } скрывает поласу прокрутки   */
+            
+           /* .but
+            {
+                width:20%;
+                height:50%;
+                
+                }*/
+                
+        #divbutton
+        {
+           
+            width:100%;
+            height:20%;
+          background:green;
+            }
+
+    .but {
+         background:Gray;
+         /*padding: 7px;*/
+        }
+  
+      
+      
+       
+       table tr:hover
+        {
+            background:Gray;
+        }
+
+        #placeholder
+        {
+            text-align: center;
+        }
+      
+        td, th
+        {
+            padding: 5px;
+           
+        } 
+        
+        .selected-row
+        {
+            background:red;
+        }
+   
